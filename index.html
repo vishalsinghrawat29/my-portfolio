@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>component-library</title>
+    <!--CSS Way 1: style Tag  -->
+    <!-- <style>
+        body {
+            color:red;
+        }
+    </style> -->
+
+    <!-- CSS Way 3: External Link -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <h1>vishal's component library</h1>
-     <p>I am making my library which would make all my projects looks good and consistent</p>
+     <h1 id="lib-header">vishal's component library</h1>
+     <!-- style="color: aqua;"  -->
+     <p class="para">I am making my library which would make all my projects looks good and consistent</p>
      
      <hr>
      <h2>@typography</h2>
@@ -16,16 +26,16 @@
      <h1>This is the biggest heading</h1>
      <h2>This is second biggest</h2>
      <p>Let me show you the normal text.This is free flowing and wrap at the end like a paragraph</p>
-     <small>This is relatively smaller text</small>
+     <small class="para">This is relatively smaller text</small>
 
      <hr>
      <h2>@container</h2>
 
      <h3>Fluid container</h3>
-     <div>This is a fluid container and it will go till the end of the page</div>
+     <div class="para">This is a fluid container and it will go till the end of the page</div>
 
      <h3>Fluid container</h3>
-     <div>This is a centered container and it will go till the specified width</div>
+     <div class="para">This is a centered container and it will go till the specified width</div>
 
      <hr>
      <h2>@Links</h2>
@@ -99,7 +109,6 @@
             <li>Social Three</li>
         </ul>
     </footer>
-
 
 </body>
 </html>
