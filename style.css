@@ -9,6 +9,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    padding: 0px;
 }
 hr{
     margin: 2rem 0rem;
@@ -19,8 +20,9 @@ hr{
     padding:0rem 1rem;
 }
 .container-center{
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
+    width: 100%;
 }
 
 
@@ -79,7 +81,7 @@ hr{
 
 /* Header */
 .hero{
-    padding: 2rem;
+    padding: 0rem;
     padding-top: 5rem;
 }
 .hero .hero-img{
@@ -99,6 +101,7 @@ hr{
 /* Sections */
 .section{
     padding: 2rem; 
+    text-align: center;
 }
 .section h1{
     text-align: center;
@@ -130,11 +133,26 @@ ul{
     margin: 3rem auto;
     border-radius: 1rem;
     padding: 1.5rem;
+    text-align: center;
 }
 .card-section h1{
     margin: 0rem;
 }
+.card-section h1 span{
+    color: var(--primary-color);
+}
 .card-section p {
+    padding-bottom: 0.5rem;
+    line-height: 1.8;
+  }
+  .blog-section{
+    margin: 0rem auto;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+  }
+
+  .blog-section p {
     padding-bottom: 0.5rem;
     line-height: 1.8;
   }
