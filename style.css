@@ -132,11 +132,13 @@ ul{
 .card-section {
     margin: 3rem auto;
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: 0rem;
+    padding-bottom: 1.5rem; 
     text-align: center;
 }
 .card-section h1{
     margin: 0rem;
+    padding-top: 1.5rem;
 }
 .card-section h1 span{
     color: var(--primary-color);
@@ -144,15 +146,18 @@ ul{
 .card-section p {
     padding-bottom: 0.5rem;
     line-height: 1.8;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
-  .blog-section{
+
+.blog-section{
     margin: 0rem auto;
     border-radius: 1rem;
     padding: 1.5rem;
     text-align: left;
-  }
+}
 
-  .blog-section p {
+.blog-section p {
     padding-bottom: 0.5rem;
     line-height: 1.8;
-  }
+}
